@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         // ต้องเปลี่ยนค่าเหล่านี้:
-        GITHUB_USERNAME = 'Aunkko-0'
-        GITHUB_REPO = 'https://github.com/Aunkko-0/aws-pipeline.git'
+        GITHUB_USERNAME = 'aunkko-0'
+        GITHUB_REPO = 'aws-pipeline'
         GHCR_CREDENTIALS_ID = 'aws-webhook'
         
         // ตัวแปรที่ใช้ร่วมกัน
