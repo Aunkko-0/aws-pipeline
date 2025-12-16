@@ -8,7 +8,7 @@ const port = 3000;
 app.get('/', (req, res) => {
   // ส่งข้อความ JSON ตอบกลับ
   res.status(200).json({
-    greeting: 'สวัสดี! Node.js Server ทำงานอยู่',
+    greeting: 'ทำงานอยู่',
     status: 'Running',
     date: new Date().toISOString()
   });
