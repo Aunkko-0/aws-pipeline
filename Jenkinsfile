@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:lts-slim'
-            // args '-u root' ถูกตัดออก หากไม่เจอปัญหา Permission
-        }
-    }
+    agent any
 
     environment {
         // ต้องเปลี่ยนค่าเหล่านี้:
